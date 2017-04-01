@@ -1,0 +1,24 @@
+/* your styles go here */
+
+
+#nameHeader {
+	font-size: 50px;
+	font-family: 'Bad Script', cursive;
+	/*font-family: 'Nothing You Could Do', cursive;*/
+	}
+
+#logo {
+	font-family: 'Sacramento', cursive;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.progress-bar {
+	background-color: #2d5348;
+}
+
+#copyrightFooter {
+	background-color: grey;
+	text-align: center;
+	padding-top: 10px;
+}
