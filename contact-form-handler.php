@@ -5,10 +5,10 @@ if($_POST["submit"]) {
     $firstName=$_POST["firstName"];
     $lastName=$_POST["lastName"];
     $senderEmail=$_POST["email"];
-    $message=$_POST["comments"];
+    $message=$_POST["message"];
     $mailBody="First Name: $firstName\nLast Name: $lastName\nEmail Address: $senderEmail\n\nMessage: $message";
     mail($recipient, $subject, $mailBody);
 	sleep(1);
-	header("Location:www.google.com"); // Set here redirect page or destination page
+	header("Location:http://ishaniamin.herokuapp.com/"); // Set here redirect page or destination page
 }
 ?>
