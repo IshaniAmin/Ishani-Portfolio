@@ -14,11 +14,23 @@
 }
 
 .progress-bar {
-	background-color: #2d5348;
+	background-color: #329393;
 }
 
 #copyrightFooter {
 	background-color: grey;
 	text-align: center;
 	padding-top: 10px;
+}
+
+#technologies {
+	text-align: center;
+}
+
+section {
+	padding: 50px 0;
+}
+
+.links {
+	font-size: 20px;
 }
