@@ -9,6 +9,6 @@ if($_POST["submit"]) {
     $mailBody="First Name: $firstName\nLast Name: $lastName\nEmail Address: $senderEmail\n\nMessage: $message";
     mail($recipient, $subject, $mailBody);
 	sleep(1);
-	header("Location:http://ishaniamin.herokuapp.com/"); // Set here redirect page or destination page
+	header("http://ishaniamin.herokuapp.com/"); // Set here redirect page or destination page
 }
 ?>
