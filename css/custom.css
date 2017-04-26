@@ -39,7 +39,14 @@ section {
 	font-size: 20px;
 }
 
-
 #contactHeader {
 	text-align: center;
+}
+
+#contact {
+	text-align: center;
+}
+
+p.social {
+	margin-top: 0;
 }
